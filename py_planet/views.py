@@ -17,8 +17,7 @@ from django.http import HttpResponse
 
 #TelegramBot = telepot.Bot(settings.TELEGRAM_BOT_TOKEN)
 
-# yukarıdaki yerine kendi kodumu ekliyorum:
-TOKEN = '7434558768:AAGMQuaRLymys8SOj5ObKAdLH0f-0Ly0NaU'
+TOKEN = 'x' # you should add here telegram bot token
 TelegramBot = telepot.Bot(TOKEN)
 logger = logging.getLogger('telegram.bot')
 
